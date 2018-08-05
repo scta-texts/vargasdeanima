@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Librum III, Quaestio 3</title>
+				<author>Alphonsus Toletanus Vargas</author>
+				<editor>Jeffrey C. Witt</editor>
+				<respStmt>
+					<name>Jeffrey C. Witt</name>
+					<resp>TEI Encoder</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.0.0-dev">
+					<date when="2016-09-15">September 15, 2016</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>An SCTA project</authority>
+				<availability status="free">
+					<p>Public Domain</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="V" n="Venice1566">Venice1566</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+			<schemaRef n="lbp-critical-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng"> </schemaRef>
+			<editorialDecl>
+				<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+					guidelines for a critical edition</p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<listChange>
+				<change when="2016-09-02" who="#JW" status="draft" n="0.0.0">
+					<p>Created file for the first time.</p>
+				</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="la">
+		<front>
+			<div xml:id="includeList">
+				<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+				<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+			</div>
+			<div xml:id="starts-on">
+				<pb ed="#V" n=""/>
+				<cb ed="#V" n=""/>
+			</div>
+		</front>
+		<body>
+			<div xml:id="atvda-l13dq3">
+				<head>Librum III, Quaestio 3</head>
+				<head type="questionTitle">An intellectus sit nobilior potentia, quam voluntas, vel econvero</head>
+				<p>Utrum intellectus sit nobilior 
+					<lb ed="#V"/>potentia, quam voluntas, vel econ<lb ed="#V"/>verso?</p>
+				<div>
+					<head type="rationes-principales">Rationes principales</head>
+					<p>Et videtur primo, quod non 
+						<lb ed="#V"/>excedat se perfectionaliter. Quia 
+						<lb ed="#V"/>sicut se habet inaequalitas obiecto<lb ed="#V"/>rum 
+						ad inaequalitatem potentiarum in <!-- unclear if this should be imperfectione --> 
+						<lb ed="#V"/>perfectione; ita aequalitas ad ȩqua<lb ed="#V"/>litatem; 
+						sed inȩqualitas obiectorum 
+						<lb ed="#V"/>arguit inaequalitatem potentiarum perfectionaliter: 
+						<lb ed="#V"/>ergo aequalitas arguit aequalitatem; sed obiecta ista<lb ed="#V"/>rum 
+						potentiarum sunt aequalia, et aequalis ambitus. 
+						<lb ed="#V"/>Nam idem sub eadem ratione formali est necessario 
+						<lb ed="#V"/>obiectum intellectus, &amp; voluntatis; cum nil volitum, 
+						<lb ed="#V"/>nisi prius cognitum, &amp; omne volitum cognitum, quorum 
+						<lb ed="#V"/>utrunque pertinet ad voluntatem.</p>
+					
+					<p>2 Praeterea vi<lb ed="#V"/>deutr, 
+						quòd intellectus sit nobilior voluntate: quia in 
+						<lb ed="#V"/>actu nobilioris potentiae existit beatitudo, qua forma<lb ed="#V"/>liter 
+						beatificatur; sed haec consistit in actu intellectus, 
+						&amp; non voluntatis: ergo. Maior patet. Minor probatur: 
+						Per illud, quod habetur in evangelio. <quote ana="#io17_3">Haec est vita aeter<lb ed="#V"/>na, 
+						ut cognoscant te</quote>, etc. ergo.</p>
+					
+					<p>AD OPPO<lb ed="#V"/>SITVM 
+						arguitur sic. Illa potentia est nobilior 
+						<lb ed="#V"/>alia, cuius actus perficit actum alterius; sed actus vo<lb ed="#V"/>luntatis 
+						perficit actum intellectus: ergo. Assumptum 
+						<lb ed="#V"/>probatur per Beatum Augustinum dicentem, quod 
+						<lb ed="#V"/>nullum bonum perfectè cognoscitur, quod non perfe<lb ed="#V"/>ctè 
+						amatur. Et per consequens amor est perfectio co<lb ed="#V"/>gnitionis: 
+						ergo.
+					</p>
+				</div>
+				<div>
+					<head>Divisio Quaestionis</head>
+					<p><lb ed="#V"/>AD DECLARANDVM, quod quaeri<lb ed="#V"/>tur, 
+						tria sunt videnda. Primum est. Utrum idem 
+						<lb ed="#V"/>sub eadem ratione formali sit obiectum intellectus, &amp; 
+						<lb ed="#V"/>voluntatis? Sicut tangit. primum argumentum.</p>
+					
+					<p>Secundum est. Vtrum beatitudo, qua formaliter 
+						<lb ed="#V"/>beatificatur, consistat in actu intellectus, vel volunta<lb ed="#V"/>tis? 
+						Sicut tangit secundum argumentum. Ter<lb ed="#V"/>tium 
+						est, quod quaerit quaestio principalis.</p>
+				</div>
+				<div type="articulus">
+					<head>ARTICVLVS PRIMVS.</head>
+					<head type="questionTitle">Utrum unum, et idem sub eadem ratione formali sit obiectum intellectus, et voluntatis</head>
+					<p>Quantum ad primum. Utrum unum, &amp; 
+						<lb ed="#V"/>idem sub eadem ratione formali sit obiectum intel<lb ed="#V"/>lectus, 
+						&amp; voluntatis?</p>
+					
+					<p>AD quod respon<lb ed="#V"/>dent 
+						aliqui doctores dicentes, quod non. Dicunt enim 
+						<lb ed="#V"/>quòd rationes obiectales intellectus, &amp; voluntatis ve<lb ed="#V"/>rum 
+						scilicet &amp; bonum, vel ens, vel quaecunque sint illae, dif<cb ed="#V" n="b"/><lb ed="#V"/>ferunt 
+						plus quàm ratione: nam quàmvis sint una res 
+						<lb ed="#V"/>materialiter; differunt tamen formaliter, ex natura rei. 
+						<lb ed="#V"/>Et haec differentia est praeter omnem actum intelligen<lb ed="#V"/>di: 
+						non enim differunt: quia intellectus eas differenter 
+						<lb ed="#V"/>intelligit: sed ideo eas differenter intelligit: quia diffe<lb ed="#V"/>runt 
+						in re. Probant ergo isti doctores duas conclusio<lb ed="#V"/>nes. 
+						Prima est, quod distinctio formalis extra in<lb ed="#V"/>tellectum 
+						potest stare cum idemptitate reali. Se<lb ed="#V"/>cunda 
+						est, quòd rationes obiectales intellectus, &amp; vo<lb ed="#V"/>luntatis 
+						differunt isto modo formaliter.</p>
+					
+					<p><lb ed="#V"/>AD DECLARATIONEM, vel ad 
+						<lb ed="#V"/>declarandam primam conclusionem procedit quidam 
+						<lb ed="#V"/>doctor hoc ordine: nam primo dat intellectum propo<lb ed="#V"/>sitionis, 
+						praemittendo quatuor divisiones, &amp; quatuor 
+						<lb ed="#V"/>suppositiones, &amp; quatuor comparationes. Secundo 
+						<lb ed="#V"/>ostendit hanc propositionem esse de intentione <name ref="#Aristotle">Aristotelis</name> 
+						<lb ed="#V"/>in diversis locis. Tertio probat ipsam esse de ne<lb ed="#V"/>cessitate 
+						rationis.</p>
+					<p>PRIMA divisio est, quòd rerum aliae sunt sin<lb ed="#V"/>gulares, 
+						aliae verò universales; haec divisio, ut dicit, tra<lb ed="#V"/>ditur 
+						ab <ref><name ref="#Aristotle"><sic>Aristotile</sic></name> primo <title ref="#Perihermenias">Perihermenias</title></ref>. Ex hac divisione 
+						<lb ed="#V"/>habet, quòd differentia duorum potest dici, vel sumi, 
+						<lb ed="#V"/>vel per realitatem universalem, vel partiularem ex 
+						<lb ed="#V"/>una parte, vel ex alia.</p>
+					<p>SECVNDA divisio est, quòd realitatum 
+						<lb ed="#V"/>alia simpliciter, alia secundum quid. Et haec divisio tra<lb ed="#V"/>ditur 
+						in diversis locis ab <name ref="#Aristotle">Aristotele</name> &amp; potest sumi specia<lb ed="#V"/>liter 
+						in 7 metaphysicę, ubi disputat contra <name>Platonem.</name> 
+						<lb ed="#V"/>Et haec divisio, ut dicit, coincidit cum prima. Realitas 
+						<lb ed="#V"/>enim singularis est realitas simpliciter, &amp; realitas uni<lb ed="#V"/>versalis 
+						est realitas secundum quid. Et non accipit hic 
+						<lb ed="#V"/>hanc divisionem, secundum quòd potest dividere in<lb ed="#V"/>ter 
+						substantiam, &amp; accidens: quoniam aliter sumitur 
+						<lb ed="#V"/>hic, &amp; ibi simpliciter, &amp; secundum quid.</p>
+					<p>TERTIA divisio est, quod realitatum alia 
+						<lb ed="#V"/>prima, alia secunda: haec divisio traditur in praedicamen<lb ed="#V"/>tis 
+						de substantia solum; tamen potest extendi ad alia 
+						<lb ed="#V"/>praedicamenta; sicut dictum est de pręcedenti. Et haec 
+						<lb ed="#V"/>divisio coincidit cum praecedentibus: quoniam realitas 
+						<lb ed="#V"/>singularis est realitas simpliciter, &amp; prima; realitas uni<lb ed="#V"/>versalis 
+						est realitas secundum quid, &amp; secunda.</p>
+					<p>QVARTA divisio est, quòd realitatum alia 
+						<lb ed="#V"/>est hoc aliquid: alia verò quale quid: hęc divisio tradi<lb ed="#V"/>tur 
+						in praedicamentis de substantia solum; tamen po<lb ed="#V"/>test 
+						extendi ad alia praedicamenta, sicut dictum est de 
+						<lb ed="#V"/>praecedentibus: haec autem divisio coincidit cum pręce<lb ed="#V"/>dentibus. 
+						Realitas enim singularis est realitas simpli<lb ed="#V"/>citer, 
+					  &amp; prima; &amp; hoc aliquid; sed realitas universalis 
+						<lb ed="#V"/>est realitas secundum quid, &amp; secunda; &amp; quale quid. 
+						<lb ed="#V"/>Et hae sunt quatuor divisiones.</p>
+					
+					<p>SUPPOSITIONES sunt istae. Pri<lb ed="#V"/>ma 
+						est, quòd quidditas sive, quod quid est dicit reali<lb ed="#V"/>tatem 
+						universalem secundum quid, &amp; secundam, &amp; 
+						<lb ed="#V"/>quale quid hoc est, quia quidditas nata est responde<lb ed="#V"/>ri 
+						ad interrogationem factam per quid. Sola autem 
+						<lb ed="#V"/>realitas universalis nata est sic respònderi, &amp; praedicari, 
+						<lb ed="#V"/>ut habetur ex ista divisione in antepraedicentis. Eorum, 
+						<lb ed="#V"/>quae sunt, alia dicuntur de subiecto, etc. Quare quid<lb ed="#V"/>ditas 
+						est realitas universalis.</p>
+					
+					<p>SECVNDA suppositio est, quòd realitas 
+						<lb ed="#V"/>universalis, &amp; secundum quid, &amp; secunda, &amp; quale quid 
+						<lb ed="#V"/>est formaliter realitas: quia quidditas, &amp; formalitas idem 
+						<lb ed="#V"/>est: quia superiora, &amp; universaliora sunt formaliora re<lb ed="#V"/>spectu 
+						inferiorum, &amp; inferiora materialia respectu su<lb ed="#V"/>periorum.</p>
+					
+					<p>TERTIA </p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
